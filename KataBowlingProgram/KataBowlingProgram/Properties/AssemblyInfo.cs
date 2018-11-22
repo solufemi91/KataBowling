@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("KataBowlingConsoleApp")]
+[assembly: AssemblyTitle("KataBowlingProgram")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("KataBowlingConsoleApp")]
+[assembly: AssemblyProduct("KataBowlingProgram")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("82c3de1b-5d4f-4d12-afc8-6be4b3122cc4")]
+[assembly: Guid("5787ed55-255c-45ce-ba74-046de518f3c3")]
 
 // Version information for an assembly consists of the following four values:
 //
