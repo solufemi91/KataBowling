@@ -6,7 +6,7 @@ using Xunit;
 
 namespace XUnitTestProject1
 {
-    public class UnitTest1
+    public class ProgramTest
     {
         [Fact]
         public void AddBowlingsScoreForPerfectStrikeGame()
