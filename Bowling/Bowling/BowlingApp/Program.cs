@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace Bowling
 {
-    class Program
+    public class Program
     {
-        
-         
+
+
         static void Main(string[] args)
         {
-           
-            int[] perfectStrike = new int[] {10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10};
-           
-            int[] perfectSpare = new int[] {5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5};
+
+            int[] perfectStrike = new int[] { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 };
+
+            int[] perfectSpare = new int[] { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 };
 
             int[] perfectMiss = new int[] { 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0 };
 
             int[] testCase4 = new int[] { 10, 10, 10, 10, 10, 10, 10, 10, 10, 5, 5, 5 };
 
-            int[] testCase5 = new int[] { 10, 10, 10, 10, 10, 10, 10, 10, 10, 5, 4};
+            int[] testCase5 = new int[] { 10, 10, 10, 10, 10, 10, 10, 10, 10, 5, 4 };
 
-            int[] testCase6 = new int[] { 10, 5, 5, 4, 3, 6, 4, 5, 4, 3, 6, 4, 6, 2, 3, 4, 3, 7, 3, 2};
+            int[] testCase6 = new int[] { 10, 5, 5, 4, 3, 6, 4, 5, 4, 3, 6, 4, 6, 2, 3, 4, 3, 7, 3, 2 };
 
 
             int totalScore = AddBowlingScore(perfectStrike);
